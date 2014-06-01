@@ -5,7 +5,7 @@ module Veewee
 
         def build(options={})
 
-          download_vbox_guest_additions_iso(options)
+          #download_vbox_guest_additions_iso(options)
 
           super(options)
 

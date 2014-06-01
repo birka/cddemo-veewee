@@ -46,7 +46,7 @@ module Veewee
             self.attach_disk_ide(disk_device_number)
           end
           self.attach_isofile(isofile_ide_device_number)
-          self.attach_guest_additions
+          #self.attach_guest_additions
 
           self.create_floppy("virtualfloppy.vfd")
 
